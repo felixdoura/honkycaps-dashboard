@@ -18,7 +18,7 @@ const Home = () => {
                   <h4>PRODUCTOS</h4>
                   <h5>Listado de Productos</h5>
                   <p>Cantidad de Productos: </p>
-                  <Link className='button'>Buscar Productos</Link>
+                  <Link to={'/products'} className='button'>Buscar Productos</Link>
                 </div>
               </div>
             </div>
